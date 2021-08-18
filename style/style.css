@@ -3,176 +3,129 @@
     margin: 0;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 400;
-    line-height: 19,07px;
-}
-.wrapper {
-    width: 100%;
-    height: 100%;
+    background:#001821;
+    line-height: 1.42;
+    color: white;
 }
 a {
-    color: white;
-    font-family: 'Open sans', sans-serif;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: grayscale;
+    text-decoration: none;
 }
-.main {
-    background: url('./image/1autor.jpg');
-    background-position: center;
-    position: absolute;
-    width: 1265px;
-    height: 1202px;
-    left: 0px;
-    top: 0px;
+h1, h2, h3 {
+    margin: 0;
+    font-weight: normal;
 }
 .container {
-    max-width: 1170px;
+    max-width: 1141px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 16px;
+}
+.header {
+    height: 123px;
+    margin-bottom: 150px;
+}
+.header__content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header__logo {
-    padding-left: 39px;
     padding-top: 29px;
 }
-.header__inner {
-    display: flex;
-    align-items: center;
-    
-}
-.header__nav {
-    padding-top: 25px;
-}
-.menu li{
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 54px;
-
-}
-.menu a {
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none;
-}
-.contact {
+.menu {
     position: absolute;
-    right: 0;
-    margin-right: 45px;
-    padding-top: 25px;
+    left: 170px;
+    top: 40px;
 }
-.contact a {
+.menu ul{
+    padding: 0;
     display: flex;
-    flex-flow: column;
+    list-style: none;
+    font-size: 14px;
+}
+.menu__item  li{
+    padding-right: 55px;
+}
+.header__contact a{
+    position: relative;
+    display: block;
+    top: 25px;
+    right: 0px;
 }
 .header__phone {
-    font-weight: 400;
-    text-decoration: none;
     font-size: 26px;
 }
 .header__grapf {
-    font-weight: 400;
+    text-align: right;
+    text-decoration: underline;
     font-size: 13px;
-    padding-left: 90px;
 }
 .top {
-    position: absolute;
-    display: flex;
+    height: 350px;
 }
-.top__info {
-    padding-left: 80px;
-    padding-top: 90px;
+.top__content {
+    width: 630px;
 }
-.top__info h1 {
+.top__title {
     font-size: 75px;
     font-weight: 700;
     color: white;
-    margin: 28px 0 28px;
+    margin-bottom: 27px;
+    line-height: 1.1;
 }
-.top__info span {
+.top__text {
+    font-weight: 400;
+    font-style: normal;
     color: white;
+    font-size: 18px;
+    margin: 60px 0;
 }
-.btn {
-    padding-top: 35px;
-    padding-left: 70px;
-}
-.btn a {
-    display: inline-block;
+.top__btn {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
     text-decoration: none;
     background: #F5170E;
     border-radius: 35px;
-    padding: 18px 45px;
+    padding: 18px 40px;
 }
 .tour {
-    position: absolute; 
-    left: 54px;
-    top: 754px;
+    height: 549px;
+    position: relative;
+    margin-top: 264px;
 }
-.title{
-    color: white;
+.tour__title {
     font-size: 36px;
     font-weight: 700;
+    color: white;
+    margin-bottom: 27px;
+    line-height: 1.1;
 }
-.tour__title.title {
-    position: relative;
-}
-.tour__title.title:before {
-    content: "";
+.tour__title:after {
+    content: url('./image/flame.png');
     position: absolute;
-    background-image: url('../style/image/flame.png');
-    background-repeat: no-repeat;
-    width: 21px;
-    height: 28px;
-    left: 285px;
-    top: 11px;
+    margin-left: 12px;
 }
-.tour__info  {
+.tour__info {
     display: flex;
-    justify-content: space-between;
-    position: relative;
-    right: 30px;
-    top: 45px;
 }
 .tour__cart {
-    padding-left: 15px;
-}
-.tour__content {
-    background: white;
-    max-width: 100%;
-    height: 362px;
-}
-.tour__subtitle {
-    padding-top: 33px;
-    padding-bottom: 23px;
-    font-weight: 700;
-    font-size: 24px;
-    margin-left: 22px;
-}
-.tour__img {
-    height: 28%;
+    width: 362px;
 }
 .tour__option {
     display: flex;
     justify-content: space-between;
 }
-.tour__day-btn a{
-    text-decoration: none;
-    color: #666666;
+.tour__content {
+    position: relative;
+    bottom: 5px;
+    width: 362px;
+    height: 305px;
+    background-color: white;
+    color: black;
 }
-.tour__branch-btn a {
-    text-decoration: none;
-    color: #666666;
-}
-.tour__calendar-btn {
-    margin-left: 22px;
-}
-.tour__branch-btn {
-    margin-right: 35px;
-}
-.tour__text {
-    font-size: 14px;
-    margin-top: 26px;
-    margin-left: 23px;
-}
-.news {
-    background:#001821;
-    float: left;
-}
-

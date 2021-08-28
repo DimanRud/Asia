@@ -1,0 +1,96 @@
+.tour {
+  margin-top: 220px;
+  margin-bottom: 127px;
+}
+
+.tour__title {
+
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 70px;
+  line-height: 1.1;
+}
+.tour__title:after {
+  content: url('../image/flame.png');
+  position: absolute;
+  margin-left: 12px;
+}
+.tour__conten {
+  background-color: white;
+  color: black;
+}
+.tour__info {
+  display: inline-flex;
+}
+.tour__cart {
+  margin: 0 0 0 27px;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  flex-basis: 362px;
+  border-radius: 5px 5px 5px 5px;
+}
+.tour__cart:first-child {
+  margin: 0;
+}
+
+.tour__items {
+  padding: 33px 0 26px 24px;
+}
+.tour__subtitle {
+  margin-bottom: 23px;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 24px;
+}
+.tour__option {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.tour__day {
+  position: relative;
+  color: #666666;
+  margin-left: 34px;
+}
+.tour__day:before {
+  content: url('../image/calendar.png');
+  position: absolute;
+  right: 90px;
+}
+.tour__yeat:before {
+  content: url(../image/meal.png);
+  position: absolute;
+  right: 80px;
+
+}
+.tour__yeat {
+  position: relative;
+  color: #666666;
+  margin-right: 80px;
+}
+.tour__item {
+  display: block;
+  padding: 23px 16px 26px 0;
+}
+.tour__text {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #303030;
+  margin-bottom: 42px;
+}
+.tour__btn {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+  border-radius: 35px;
+  padding: 18px 30px;
+}
+.tour__btn:hover {
+  color: white;
+  background: #F5170E;
+}

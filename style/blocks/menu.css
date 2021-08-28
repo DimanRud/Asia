@@ -1,0 +1,16 @@
+.menu {
+  position: relative;
+  left: 0;
+}
+.menu__item {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+}
+.menu__item li {
+  margin-right: 54px;
+}
+.menu__item li:hover {
+  color:#DA0100;
+}

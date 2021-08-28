@@ -1,0 +1,29 @@
+.top {
+  height: 350px;
+}
+.top__content {
+  width: 630px;
+}
+.top__title {
+  margin-bottom: 27px;
+  font-size: 72px;
+  font-weight: 700;
+}
+.top__text {
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+  margin: 60px 0;
+}
+.top__btn {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+}

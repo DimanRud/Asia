@@ -1,11 +1,13 @@
 .top {
-  height: 350px;
+  min-height: 350px;
 }
 .top__content {
-  width: 630px;
+  margin-top: 65px;
+  margin-bottom: 300px;
+  width: 50%;
 }
 .top__title {
-  margin-bottom: 27px;
+  margin: 0;
   font-size: 72px;
   font-weight: 700;
 }

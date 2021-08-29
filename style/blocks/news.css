@@ -10,7 +10,8 @@
   background-image: url('../image/plain.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 557px;
+  flex: 1;
+  margin-right: 25px;
   height: 394px;
   border-radius: 5px;
   padding: 252px 85px 48px 30px;
@@ -19,7 +20,7 @@
   background-image: url('../image/Surfer.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 557px;
+  flex: 1;
   height: 394px;
   border-radius: 5px;
   padding: 252px 44px 48px 30px;
@@ -40,4 +41,36 @@
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
+}
+.news__paginator {
+  text-align: center;
+  margin-bottom: 153px;
+}
+.news__display {
+  margin-right: 26px;
+}
+.news__display, .news__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+.news__list {
+  padding: 0;
+}
+.news__num {
+  display: inline-block;
+  vertical-align: middle;
+}
+.news__link {
+  display: block;
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: 700;
+}
+.news__link:hover{
+  background-color: white;
+  color: #F5170E;
+  font-size: 16px;
 }

@@ -1,11 +1,15 @@
 .header {
-  height: 123px;
-  position: relative;
   margin-top: 29px;
-  margin-bottom: 156px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
 }
 .header__item {
   display: flex;
@@ -21,6 +25,7 @@
 }
 .header__phone {
   font-size: 26px;
+  line-height: 20px;
 }
 .header__grapf {
   text-align: right;

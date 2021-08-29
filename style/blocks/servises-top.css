@@ -1,0 +1,49 @@
+.top__line {
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  background: url('../image/headline\ 1.jpg') center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container__top {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1;
+  color: white;
+}
+.breadcrumbs__item {
+  margin-right: 5px;
+}
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  padding-bottom: 24px;
+}
+.breadcrumbs__list li {
+  list-style: none;
+}
+.breadcrumbs__link {
+  color: #9A9A9A;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: 400;
+}
+.breadcrumbs__item:after {
+  content: "/";
+  color: #9A9A9A;
+}
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+.breadcrumbs__item--activ .breadcrumbs__link {
+  font-weight: 700;
+}

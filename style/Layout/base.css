@@ -15,6 +15,11 @@ body {
   line-height: 1.42;
   color: white;
 }
+li {
+  list-style: none;
+  padding: 0;
+}
+
 .main-page-wrapper {
   background: url('../image/1autor.jpg') center top no-repeat, url('../image/2.jpg') center bottom 165px no-repeat;
 }

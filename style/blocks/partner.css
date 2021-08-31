@@ -1,0 +1,30 @@
+.partner {
+  background-color: #F4F5F5;
+  color: #1A1B1E;
+  padding: 88px 0;
+}
+
+.partner__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 80px;
+}
+.partner__items {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.partner__item {
+  display: flex;
+  margin-right: 55px;
+  padding-top: 55px;
+}
+.partners__link {
+  display: flex;
+  text-decoration: none;
+  width: 230px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}

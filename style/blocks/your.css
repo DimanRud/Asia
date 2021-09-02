@@ -1,0 +1,20 @@
+.your {
+  background-image: url('../image/Rectangle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 363px;
+  background-position: center;
+  width: 100%;
+}.your__items {
+  background-image: url('../image/couple.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  min-height: 363px;
+  padding: 117px 600px 0 0;
+}
+
+.your__title {
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 700;
+}

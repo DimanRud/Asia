@@ -36,8 +36,15 @@
 
           <div class="header__contact">
             <a href="tel:8(937)9879384" class="header__phone">8 800 700 30 30</a>
-            <a href="#" class="header__grapf">График работы</a>
-          </div>
+            <div class="dropdown">
+                <a href="#" class="header__grapf">График работы</a>
+
+                <div class="dropdown__items">
+                    <div class="dropdown__item">пн-вс: 09:00 - 20:00</div>
+                    <div class="dropdown__item">Обед: 14:00-14:30</div>
+                </div>
+            </div>
+         </div>
         </header>
         <h1 class="top-title">Отзывы</h1>
         <nav class="breadcrumbs">
@@ -247,7 +254,7 @@
 
           </div>
           <div class="form__btns">
-            <button class="form__btn">
+            <button class="form__btn clear" type="reset">
               Очистить
             </button>
             <button class="form__btn">

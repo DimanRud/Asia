@@ -47,8 +47,9 @@
   font-size: 18px;
   padding: 22px 30px;
 }
-.form__input.text:focus {
+.form__input:focus {
   border: 1px solid #F5170E;
+  outline: none;
 }
 .form__input:last-child {
   margin-right: 0;
@@ -71,21 +72,27 @@
 }
 .form__btns {
   display: flex;
-  justify-content:   flex-end;
+  justify-content:  flex-end;
 }
 .form__btn {
+  cursor: pointer;
   margin-top: 32px;
   font-size: 14px;
   font-weight: 700;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  background: #2B2B2B;
+  background: #F5170E;
   border-radius: 35px;
   padding: 18px 40px;
   outline: none;
   margin-right: 17px;
 }
-.form__btn:hover {
-  background: #F5170E;
+
+.clear {
+  outline: none;
+  background: #8E8E8E;
+}
+.clear:hover {
+  background: #2B2B2B;
 }

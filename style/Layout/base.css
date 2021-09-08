@@ -21,7 +21,7 @@ li {
 }
 
 .main-page-wrapper {
-  background: url('../image/1autor.jpg') center top no-repeat, url('../image/2.jpg') center bottom 165px no-repeat;
+  background: url('../image/back-one.jpg') center top no-repeat, url('../image/back-two.jpg') center bottom 165px no-repeat;
 }
 a {
   color: inherit;
@@ -57,4 +57,6 @@ h1, h2, h3 {
   background: #F5170E;
   border-radius: 35px;
   padding: 18px 40px;
+  cursor: pointer;
+  border: 1px solid transparent;
 }

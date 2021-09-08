@@ -17,11 +17,9 @@
   display: flex;
   margin-top: 23px;
   margin-bottom: 32px;
+  column-gap: 73px;
 }
-.form__controls--title {
-  width: 40%;
-}
-.form__controls--title {
+.form__controls-title {
   margin-top: 34px;
   font-size: 18px;
   font-weight: 400;
@@ -32,16 +30,13 @@
   flex-wrap: wrap;
   flex: 1;
   padding: 0px;
-}
-.controls__item {
-  margin-bottom: 10px;
-  margin-right: 10px;
+  gap: 8px;
 }
 .form__input {
   flex: 1;
   margin-right: 30px;
   border-radius: 4px;
-  border: none;
+  border: 1px solid transparent;
   background-color: white;
   color: #666666;
   font-size: 18px;
@@ -73,26 +68,17 @@
 .form__btns {
   display: flex;
   justify-content:  flex-end;
+  gap: 17px;
 }
 .form__btn {
-  cursor: pointer;
   margin-top: 32px;
-  font-size: 14px;
-  font-weight: 700;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  background: #F5170E;
-  border-radius: 35px;
-  padding: 18px 40px;
   outline: none;
-  margin-right: 17px;
 }
 
-.clear {
+.btn--type--dark {
   outline: none;
   background: #8E8E8E;
 }
-.clear:hover {
+.btn--type--dark:hover {
   background: #2B2B2B;
 }

@@ -81,15 +81,14 @@
   margin-bottom: 42px;
 }
 .tour__btn {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #F5170E;
-  border: 1px solid #F5170E;
-  border-radius: 35px;
   padding: 18px 30px;
 }
 .tour__btn:hover {
   color: white;
   background: #F5170E;
+}
+.btn--type--border {
+  border: 1px solid;
+  color:#F5170E;
+  background: transparent;
 }

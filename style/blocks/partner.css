@@ -14,11 +14,11 @@
   display: flex;
   padding: 0;
   flex-wrap: wrap;
+  column-gap: 55px;
 }
 .partner__item {
   display: flex;
-  margin-right: 55px;
-  padding-top: 55px;
+  min-height: 115px;
 }
 .partners__link {
   display: flex;
@@ -31,4 +31,7 @@
 }
 .partners__link:hover {
   filter: none;
+}
+.partner__img {
+  max-width: 100%;
 }

@@ -43,7 +43,7 @@
   text-decoration: underline;
 }
 .reviews__user:after {
-  content: url('../image/vk-blue\ 1.png');
+  content: url('../image/vk-blue.png');
   margin-left: 7px;
   height: 30px;
 }
@@ -51,6 +51,8 @@
   display: flex;
   align-items: flex-start;
   padding: 0;
+  flex-wrap: wrap;
+  gap: 9px;
 }
 .tag {
   font-size: 13px;
